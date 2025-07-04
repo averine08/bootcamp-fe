@@ -1,6 +1,6 @@
 'use client'
 import { useState, useEffect, useRef } from 'react';
-import '../2501981560/styles.css';
+import '../2501981560/asg-sesi6/styles.css';
 
 const AvePage = () => {
     const pengali = Math.floor(Math.random() *5) + 1;
