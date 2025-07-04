@@ -1,5 +1,5 @@
 import React from 'react';
-import './ave-page.css';
+import '/src/style.css';
 import { useState, useEffect, useRef } from 'react';
 // import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import * as motion from "motion/react-client"
@@ -37,8 +37,8 @@ const AvePage = () => {
         }
 
         return () => {
-        clearInterval(timerRef.current);
-        timerRef.current = null;
+            clearInterval(timerRef.current);
+            timerRef.current = null;
         };
     }, [isRunning]);
 
