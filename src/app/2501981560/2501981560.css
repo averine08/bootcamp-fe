@@ -94,3 +94,18 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+li {
+    list-style-type: none;
+    margin: '10px 0';
+    color: 'blue';
+    
+}
+
+li:visited {
+    color: 'blue';
+}
+
+Link {
+    text-decoration: none;
+}

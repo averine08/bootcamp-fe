@@ -1,4 +1,4 @@
-import './global.css'
+
 import { Inter } from 'next/font/google'
 import Link from 'next/link'
 
@@ -11,9 +11,8 @@ const inter = Inter({
 export default function Layout({ children }) {
     
     return (
-        <section className="bg-blue-300">
+        <section className={inter.className} style={{ display:'flex', justifyContent:'center', alignItems:'center', flexDirection:'column', height: '100vh' }}>
             <div className='flex flex-col items-center justify-center min-h-screen bg-gray-100 p-6'>
-                <h1 className='font-bold'>Welcome to Averina Nurdin's Page</h1>
                 {children}
 
             </div>
